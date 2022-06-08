@@ -48,7 +48,7 @@ if __name__ == "__main__":
 			if "-t" in args:
 				token = args[args.index("-t")+1]
 			elif "--token" in args:
-				token = args[args.index("-t")+1]
+				token = args[args.index("--token")+1]
 
 			if "-i" in args:
 				channel_id = args[args.index("-i")+1]
